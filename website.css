@@ -309,15 +309,17 @@ main {
 
 .products-parent-container {
   display: grid;
-  grid-template-columns: 318px 318px 318px 318px;
-  column-gap: 1rem;
-  row-gap: 0.5rem;
+  grid-template-columns: 320px 320px 320px 320px;
+  column-gap: 0.35rem;
+  row-gap: 0.45rem;
   padding: 0.5rem;
+  justify-content: center;
   margin: 1rem 0rem;
 }
 
 .product-container {
   background-color: var(--clr-lightgrey-500);
+  border-radius: 4px
 }
 
 .product-content p {
@@ -331,10 +333,11 @@ main {
 .image-wrapper {
   overflow: hidden;
   position: relative;
+  border-radius: 4px;
 }
 
 .products-image {
-  height: 318px;
+  height: 320px;  
   cursor: pointer;
 }
 
